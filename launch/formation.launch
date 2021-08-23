@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="offboard" type="formation_uav0.py" name="py_uav0"/>
+    <node pkg="offboard" type="formation_uav1.py" name="py_uav1"/>
+    <node pkg="offboard" type="formation_uav2.py" name="py_uav2"/>
+    <node pkg="offboard" type="formation_uav3.py" name="py_uav3"/>
+ </launch>
